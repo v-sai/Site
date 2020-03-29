@@ -1,0 +1,132 @@
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style:  dotted none none;
+  border-color:  #EAF6F6;
+  border-width: 10px;
+  margin: 100px auto;
+  width: 4%;
+}
+
+p{
+  line-height: 2;
+}
+
+
+/************************************************CLASS SELECTORS*********************************/
+a:hover{
+  color: #EAF6F6;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 60px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.intro{
+  width: 40%;
+  margin: auto;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.profile-img{
+  width: 20%;
+  border-radius: 100%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px
+}
+
+
+.btn {
+	background-color:#66bfbf;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:8px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:11px 15px;
+}
+a:hover{
+  background-color:#4a9494;
+}
